@@ -54,6 +54,7 @@
             height: 50vh;
         }
     </style>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
 </head>
 
@@ -119,8 +120,9 @@
                     class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Remove all
                 Data</a>
             <a class="mdl-navigation__link" style="cursor:pointer" onclick="callDivNodeJSChange();return false"><i
-                class="mdl-color-text--blue-grey-400 material-icons" role="presentation">compare_arrows</i>Change Div
-            Data</a>
+                    class="mdl-color-text--blue-grey-400 material-icons" role="presentation">compare_arrows</i>Change
+                Div
+                Data</a>
             <div class="mdl-layout-spacer"></div>
             <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons"
                                                        role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
@@ -132,7 +134,11 @@
     <!-- Main Body --->
     <main class="mdl-layout__content mdl-color--grey-100">
         <div id="mapid"></div>
-        <div id="ajaxtest" style="width: 1600px; height:20px;">This div should change</div>
+
+        <div id="ajaxtext" style="width: 1600px; height:20px;">
+            should be here
+            <div w3-include-html="createForm.html"></div>
+        </div>
     </main>
 </div>
 
